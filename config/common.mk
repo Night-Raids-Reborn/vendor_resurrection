@@ -196,5 +196,9 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 include vendor/rr/config/version.mk
 
+# rr Ad-block
+PRODUCT_PACKAGES += \
+    hosts.rr_adblock
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/rr/config/partner_gms.mk
