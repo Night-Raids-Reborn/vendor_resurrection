@@ -108,7 +108,8 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # AOSP packages
 PRODUCT_PACKAGES += \
-    Terminal
+    Terminal \
+    SoftAPManager
 
 PRODUCT_PACKAGES += \
     LineageParts \
